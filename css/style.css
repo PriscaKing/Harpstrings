@@ -136,5 +136,62 @@ width: 30rem;
 
 .booking {
     text-align: center;
+    margin-top: 2px;
 }
+
+
+.booking-btn {
+    padding:14px 15rem;
+    border-radius: 20px;
+    border-style: none;
+    color: rgb(26, 3, 3);
+    background-color: #AE9C8D;
+}
+
+
+.instruments {
+    display: flex;
+
+}
+
+
+.sale-of-products {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    border-style:groove;
+    padding: 15px;
+}
+
+
+.sales {
+padding: 20px;
+}
+
+
+.sales img {
+width: 15rem;
+}
+
+
+.new-arrivals {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    border-style:groove;
+    padding: 15px;
+}
+
+
+
+.choicest-picks{
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    border-style:groove;
+    padding: 15px;
+}
+
+
+.slide img{
+    width: 15rem;
+}
+
 
