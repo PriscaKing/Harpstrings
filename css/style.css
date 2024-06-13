@@ -84,7 +84,7 @@
 } */
 
 
- /* .linkage {
+/* .linkage {
     padding-top: 10rem;
 }
 
@@ -100,7 +100,7 @@
 
 
 /* .testimonials p { */
-    /* background-color: bisque;
+/* background-color: bisque;
     padding: 30px;
     padding-right: 0px;
 }
@@ -108,28 +108,28 @@
 
 .testimonials h4 {
     color: brown;
-} */ 
+} */
 
 
 .studiorecord {
- padding-top: 12rem;
- display: flex;
- gap: 0px;
+    padding-top: 12rem;
+    display: flex;
+    gap: 0px;
 }
 
-.studio{
+.studio {
     text-align: center;
     padding: 50px;
 }
 
 
 .studio img {
-width: 30rem;
-/* padding: 50px; */
+    width: 30rem;
+    /* padding: 50px; */
 }
 
 
-.studio a{
+.studio a {
     text-decoration: none;
     color: black;
 }
@@ -141,7 +141,7 @@ width: 30rem;
 
 
 .booking-btn {
-    padding:14px 15rem;
+    padding: 14px 15rem;
     border-radius: 20px;
     border-style: none;
     color: rgb(26, 3, 3);
@@ -154,30 +154,37 @@ width: 30rem;
 
 }
 
-
+/* 
 .sale-of-products {
     margin-top: 12rem;
     margin-bottom: 12rem;
+    margin-left: 2rem;
     border-style:groove;
-    padding: 15px;
+    padding: 5px;
 }
 
 
 .sales {
-padding: 20px;
+padding-top: 2px;
 }
 
 
 .sales img {
-width: 15rem;
+width: 7rem;
+padding: 0px;
+}
+
+.rows {
+    margin-top: 30rem;
 }
 
 
 .new-arrivals {
     margin-top: 12rem;
     margin-bottom: 12rem;
+    margin-left: 2rem;
     border-style:groove;
-    padding: 15px;
+    padding: 15px; 
 }
 
 
@@ -185,6 +192,8 @@ width: 15rem;
 .choicest-picks{
     margin-top: 12rem;
     margin-bottom: 12rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border-style:groove;
     padding: 15px;
 }
@@ -194,4 +203,19 @@ width: 15rem;
     width: 15rem;
 }
 
+ */
 
+.product-section {
+    margin: 50px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px; */
+}
+
+
+.image img {
+    display:flex;
+    width: 70px;
+}
