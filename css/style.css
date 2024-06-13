@@ -13,6 +13,7 @@
 #hero-main {
     background-image: url("../img/head-mic1.jpg");
     padding: 10rem;
+    margin-top: 2rem;
 }
 
 #logo {
@@ -60,56 +61,23 @@
     margin-top: 10rem;
 }
 
-/* 
-.slideshow-container {
-    
+
+.btn {
+    background-color: transparent;
+    padding: 2px 20px;
+    border-radius: 2rem;
+    border: 2px solid white;
+    border-inline-color: #AB663B;
+
 }
 
 
-.mySlides fade {
-
-
-}
-
-.numbertext {
-   
-}
-
-.text {
-  
-}
-
-.dot {
-    
-} */
-
-
-/* .linkage {
-    padding-top: 10rem;
-}
-
-.image img {
-    width: 17rem;
-}
-
-
-.image a {
-    color: brown;
+.btn a {
     text-decoration: none;
+    color: white;
 }
 
-
-/* .testimonials p { */
-/* background-color: bisque;
-    padding: 30px;
-    padding-right: 0px;
-}
-
-
-.testimonials h4 {
-    color: brown;
-} */
-
+/* STUDIO RECORDING SECTION */
 
 .studiorecord {
     padding-top: 12rem;
@@ -149,73 +117,71 @@
 }
 
 
+
+/* INSTRUMENT SALES */
+
+/* .instruments {
+    display: flex;
+    background-color: #AB663B;
+    margin-top: 10rem;
+
+}
+
+
 .instruments {
     display: flex;
-
+    flex-direction: column;
 }
 
-/* 
-.sale-of-products {
-    margin-top: 12rem;
-    margin-bottom: 12rem;
-    margin-left: 2rem;
-    border-style:groove;
-    padding: 5px;
-}
-
-
-.sales {
-padding-top: 2px;
+.instruments-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 
-.sales img {
-width: 7rem;
-padding: 0px;
-}
-
-.rows {
-    margin-top: 30rem;
-}
-
-
-.new-arrivals {
-    margin-top: 12rem;
-    margin-bottom: 12rem;
-    margin-left: 2rem;
-    border-style:groove;
-    padding: 15px; 
-}
-
-
-
-.choicest-picks{
-    margin-top: 12rem;
-    margin-bottom: 12rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-style:groove;
-    padding: 15px;
-}
-
-
-.slide img{
-    width: 15rem;
-}
-
- */
-
-.product-section {
-    margin: 50px;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px; */
+.image {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
 }
 
 
 .image img {
-    display:flex;
-    width: 70px;
+    border: #AE9C8D 2px solid;
+    width: 150px;
+} */
+
+
+.flexed-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    /* margin: 0 auto; */
 }
+
+
+.sale-on-products {
+    border: 2px solid tomato;
+    /* width: 100px;
+    height: 200px; */
+    background: rgb(221, 224, 226);
+    margin: 80px;
+    padding: 35px;
+}
+
+.brand-logo {
+    padding-bottom: 30px;
+    display: flex;
+}
+
+
+.brand-logo img{
+    width: 10rem;
+    padding: 20px;
+    
+}
+
