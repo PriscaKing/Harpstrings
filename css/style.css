@@ -157,7 +157,7 @@ body{
 /* STUDIO RECORDING SECTION */
 
 .studiorecord {
-    padding-top: 12rem;
+    padding-top: 6rem;
     display: flex;
     gap: 0px;
 }
